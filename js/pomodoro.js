@@ -13,7 +13,7 @@ playpause.onclick = function () {
     playpause.innerHTML = "Start";
     var audio = document.getElementById('audio23');
     audio.loop = 1;
-    audio.volume = 0.001;
+    audio.volume = 0.005;
     audio.pause();
 
   } else if (!playing) {
@@ -21,7 +21,7 @@ playpause.onclick = function () {
     console.log("Play!");
     playpause.innerHTML = "Pause";
     var audio = document.getElementById('audio23');
-    audio.volume = 0.001;
+    audio.volume = 0.005;
     audio.play();
     audio.loop = 1;
 
