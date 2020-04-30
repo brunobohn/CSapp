@@ -21,7 +21,7 @@ playpause.onclick = function () {
     console.log("Play!");
     playpause.innerHTML = "Pause";
     var audio = document.getElementById('audio23');
-    audio.volume = 0.05;
+    audio.volume = 0.001;
     audio.play();
     audio.loop = 1;
 
